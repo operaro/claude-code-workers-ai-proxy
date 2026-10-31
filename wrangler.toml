@@ -1,0 +1,10 @@
+name = "claude-code-workers-ai-proxy"
+main = "src/index.js"
+compatibility_date = "2026-08-30"
+
+[ai]
+binding = "AI"
+
+[vars]
+# Default Workers AI model to fall back on if unspecified
+DEFAULT_MODEL = "@cf/deepseek-ai/deepseek-v4.1-flash-1017"
